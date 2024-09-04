@@ -24,10 +24,10 @@ bash
 Copy code
 pip install mysql-connector-python
 pywin32: For voice assistance.
-bash
-Copy code
+
 pip install pywin32
-Installation
+
+### Installation ###
 Clone the repository:
 
 git clone https://github.com/Piyush-Pandey312/ATM_Banking_System.git
@@ -48,15 +48,18 @@ python atm_banking_system.py
 Launch the application and follow the on-screen instructions.
 Choose from the available menu options to perform different banking operations.
 Ensure that your MySQL server is running and that you have a stable internet connection for email functionality.
-Example Workflow
+
+### Example Workflow ###
 Create a new account by entering the required details.
 Withdraw cash by entering the account number, PIN, and a verification code sent to your email.
 Deposit cash and receive a confirmation email with your updated balance.
 Check your recent transactions to track your account activity.
-Troubleshooting
+
+### Troubleshooting ###
 Database Connection Error: Ensure that MySQL is installed and running. Verify your database credentials.
 Email Sending Issues: Ensure that your email credentials are correct and that you have allowed less secure apps to access your email account if using Gmail.
-Contributing
+
+### Contributing ###
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
 ### License ###
